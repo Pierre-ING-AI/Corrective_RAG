@@ -109,18 +109,6 @@ python-dotenv
 
 ---
 
-## 📦 Installation
-
-```bash
-git clone <url-du-repo>
-cd <nom-du-repo>
-python -m venv venv
-source venv/bin/activate   # ou venv\Scripts\activate sous Windows
-pip install langchain langchain-openai langchain-core langchain-chroma langgraph pydantic python-dotenv
-```
-
----
-
 ## 🔑 Configuration
 
 Créez un fichier `.env` à la racine du projet avec votre clé API OpenAI :
